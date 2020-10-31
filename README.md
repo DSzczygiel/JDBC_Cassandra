@@ -1,0 +1,3 @@
+# JDBC_Cassandra
+
+JDBC driver type 4 for Cassandra made in terms of college project. Communication with Cassandra is done using it's native CQL Binary Protocol. The driver implements some most important JDBC interfaces extended by methods specific to Cassandra. The driver is unfinished and needs many improvements. Working or partialy working features are: statements, prepared statements, batch statements, named parameters in statements, iterating over result sets, result pagination, using user defined types in statements, repreparing queries if query is not found on target node, setting consistency level.
